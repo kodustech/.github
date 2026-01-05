@@ -1,71 +1,60 @@
-# 🐶 Kodus — Reinventing How We Ship Code
+# 🐶 Kodus
 
-> **AI changed how we write code. Now it’s time to change how we ship it.**
+**Open source AI code review for teams shipping AI-generated code.**
 
-Welcome to Kodus!  
+Kodus helps teams review and ship code written with AI.  
+As code generation gets faster, manual code review becomes the bottleneck.
 
-We’re building an ecosystem of **AI agents** to automate every step of software delivery — from review to release — helping dev teams ship production software **100x smarter**.
+## What is Kodus?
 
----
+Kodus is an **open source AI code review platform**.
 
-## 🚀 Why Kodus?
+Its first agent is **Kody**, an AI-powered pull request reviewer that:
+- Reviews PRs automatically
+- Understands the codebase, not just the diff
+- Follows your team’s rules
+- Runs in the cloud or self-hosted
 
-Generative AI made writing code 10x faster —  
-but it also made **shipping it** 10x harder.
+## Why Kodus?
 
-Today, developers face:
-- More duplicate code with GenAI.
-- Increased quality issues in AI-generated PRs.
-- Slower, more manual review cycles.
+AI-generated code increases:
+- Review noise
+- Duplicate logic
+- Subtle bugs and security risks
 
-We believe the **next AI wave** isn’t just about writing code faster.  
-It’s about delivering that code **reliably** — without drowning in manual reviews or brittle processes.
+Manual reviews do not scale with AI output. Kodus exists to fix that.
 
----
+## How Kodus is different
 
-## 🧠 What We’re Building
+Most AI code review tools focus on a single PR in isolation.
 
-Kodus is:
+Kodus is built to understand **your system and your team over time**.
 
-✅ **Learning agents** that understand your whole codebase, not just the diff.  
-✅ **Team-specific automation**, tuned to your patterns and rules.  
-✅ **Open and extensible**, so the community can help shape the future.  
-✅ **Secure and flexible**, running on cloud or on-prem.
+- **BYOK first**  
+  Use your own LLM keys and providers instead of being locked into a hosted model.
 
-Our first agent is **Kody**:
+- **Codebase-aware**  
+  Learns repository structure and patterns instead of reviewing diffs only.
 
-### An AI-powered PR reviewer  
-that’s fast, consistent, and understands your team’s rules.
+- **Rules over prompts**  
+  Explicit, versioned rules make reviews predictable and low-noise.
 
----
+- **Team-shaped behavior**  
+  You control what matters, what blocks merges, and what gets ignored.
 
-## 🌍 Why Open Source?
+- **Open and self-hostable**  
+  Fully open source, auditable, and deployable on your infrastructure.
 
-We believe:
-- Trust comes from transparency.
-- Community drives better tools.
-- Open ecosystems win long-term.
+## Get started
 
-Here on GitHub, you’ll find:
-- 🧩 Core Kodus systems and integrations.  
-- 🛡 Kody Rules — customizable rule libraries.  
-- 🧠 Prompts and configs powering Kody’s brain.
-
-We welcome contributions, feedback, and fresh ideas!
-
----
-
-## ✨ Join Us
-
-💬 Chat with us on [Discord](https://discord.gg/wnd4XrPe)  
-🌐 Visit [kodus.io](https://kodus.io)  
-📚 Read the [docs](https://docs.kodus.io)  
-🐛 File an [issue](./issues) or suggest a [feature](./discussions)  
-🤝 Check the [contribution guide](./CONTRIBUTING.md)
+- 📚 Docs: https://docs.kodus.io  
+- 🌐 Website: https://kodus.io  
+- 💬 Discord: https://discord.gg/TFZBRk9fT6
+- 🐛 Issues: ./issues  
+- 🤝 Contributing: ./CONTRIBUTING.md  
 
 ---
 
-**Let’s change how the world ships software — together.**
+**Ship AI-generated code with confidence.**
 
-✌️ With love,  
-The Kodus team + Kody, the caramel dev dog 🐶
+Built by the Kodus team and Kody, the caramel dev dog 🐶
